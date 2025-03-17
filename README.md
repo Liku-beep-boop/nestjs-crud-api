@@ -56,11 +56,11 @@ http://localhost:3000/api
 ### Endpoints Disponibles
 | Método | Endpoint        | Descripción |
 |---------|---------------|-------------|
-| GET     | /items        | Obtener todos los items |
-| GET     | /items/:id    | Obtener un item por ID |
-| POST    | /items        | Crear un nuevo item |
-| PUT     | /items/:id    | Actualizar un item |
-| DELETE  | /items/:id    | Eliminar un item |
+| GET     | /recipe        | Obtener todos los items |
+| GET     | /recipe/:id    | Obtener un item por ID |
+| POST    | /recipe        | Crear un nuevo item |
+| PUT     | /recipe/:id    | Actualizar un item |
+| DELETE  | /recipe/:id    | Eliminar un item |
 
 ## Contribución
 Si deseas mejorar este proyecto, realiza un fork del repositorio y envía un Pull Request con tus cambios.
