@@ -18,8 +18,8 @@ export class RecipeController {
   }
 
   @Get(':id')
-  findOne(@Param('id') id: string) {
-    return this.recipeService.findOne(+id);
+  async findOne(@Param('id') id: string) {
+    return await this.recipeService.findOne(+id);
   }
 
   @Patch(':id')

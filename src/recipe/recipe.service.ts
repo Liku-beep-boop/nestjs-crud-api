@@ -15,7 +15,9 @@ export class RecipeService {
   }
 
   findOne(id: number) {
-    return `This action returns a #${id} recipe`;
+    return this.prisma.recipe.findUnique({
+      where: { id },
+    });
   }
 
   update(id: number, updateRecipeDto: UpdateRecipeDto) {
