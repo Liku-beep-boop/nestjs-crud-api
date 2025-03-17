@@ -13,8 +13,8 @@ export class RecipeController {
   }
 
   @Get()
-  findAll() {
-    return this.recipeService.findAll();
+  async findAll() {
+    return await this.recipeService.findAll();
   }
 
   @Get(':id')
