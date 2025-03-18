@@ -1,4 +1,4 @@
-# NestJS CRUD API
+# NestJS CRUD API-modificado
 
 Este proyecto es una implementación de una API REST CRUD siguiendo la guía de FreeCodeCamp: [Build a CRUD REST API with NestJS, Docker, Swagger, Prisma](https://www.freecodecamp.org/news/build-a-crud-rest-api-with-nestjs-docker-swagger-prisma/).
 
